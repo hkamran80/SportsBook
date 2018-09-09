@@ -1,11 +1,11 @@
-#betstudy scraper
+# Betstudy Scraper
+
 from bs4 import BeautifulSoup as soup
 from urllib.request import urlopen as uReq
 import pprint
 import json
 
 def selectLeague():
-    
     print("\n Select a league number to study: \n ")
 
     for key in availableLeagues:
